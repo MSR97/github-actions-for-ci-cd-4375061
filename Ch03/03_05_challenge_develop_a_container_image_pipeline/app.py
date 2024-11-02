@@ -9,7 +9,7 @@ PORT = 3000
 app = FastAPI()
 
 
-@app.get('/favicon.ico', include_in_schema=False, status_code=204)
+@app.get("/favicon.ico", include_in_schema=False, status_code=204)
 async def favicon():
     return True
 
