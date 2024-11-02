@@ -3,4 +3,5 @@ def func(input_stream):
     return a
 
 
+#
 print(func(10))
