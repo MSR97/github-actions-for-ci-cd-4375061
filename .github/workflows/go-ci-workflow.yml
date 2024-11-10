@@ -26,8 +26,10 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v3
       with:
-        go-version-file: 'go.mod'
+        go-version-file: 'Ch02/02_05_ci_for_go/go.mod'
         cache: true
+
+
 
     - name: Revive Action
       uses: morphy2k/revive-action@v2.4.1
