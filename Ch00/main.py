@@ -4,4 +4,5 @@ def func(input_stream):
 
 
 #
+
 print(func(10))
