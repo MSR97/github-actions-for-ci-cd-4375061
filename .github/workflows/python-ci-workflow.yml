@@ -4,9 +4,9 @@
 name: Python application
 
 on:
-#  workflow_call:
-  push:
-    branches: [ "main" ]
+  workflow_call:
+#  push:
+#    branches: [ "main" ]
 
 permissions:
   contents: read
