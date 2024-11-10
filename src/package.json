@@ -7,7 +7,7 @@
     "main": "main.js",
     "scripts": {
         "start": "nodemon main.js",
-        "lint": "eslint . || echo 'For corrections run: npm run lint -- --fix'",
+        "lint": "eslint ../Ch02/02_03_ci_for_javascript || echo 'For corrections run: npm run lint -- --fix'",
         "test": "mocha main_test.js --reporter mocha-junit-reporter --reporter-options mochaFile=./junit.xml"
     },
     "dependencies": {
