@@ -29,6 +29,7 @@ jobs:
     permissions:
       contents: read
       packages: write
+      checks: write
 
   build:
     needs:
